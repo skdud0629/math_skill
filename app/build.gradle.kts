@@ -7,6 +7,12 @@ android {
     namespace = "com.example.math_skill"
     compileSdk = 34
 
+    extra.apply {
+        set("versionName", "1.0.0")
+        set("versionCode", 10000)
+        // 버전 관리
+    }
+
     defaultConfig {
         applicationId = "com.example.math_skill"
         minSdk = 24
