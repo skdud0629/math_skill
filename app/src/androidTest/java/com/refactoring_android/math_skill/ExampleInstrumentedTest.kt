@@ -1,4 +1,4 @@
-package com.example.math_skill
+package com.refactoring_android.math_skill
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

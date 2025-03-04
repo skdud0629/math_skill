@@ -1,17 +1,14 @@
-package com.example.math_skill
+package com.refactoring_android.math_skill
 
 import android.annotation.SuppressLint
-import android.net.http.SslError
 import android.os.Bundle
-import android.webkit.SslErrorHandler
-import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.math_skill.databinding.ActivityMainBinding
+import com.refactoring_android.math_skill.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("SetJavaScriptEnabled")
