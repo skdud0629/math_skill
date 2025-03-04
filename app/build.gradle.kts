@@ -8,8 +8,8 @@ android {
     compileSdk = 34
 
     extra.apply {
-        set("versionName", "1.0.0")
-        set("versionCode", 10000)
+        set("versionName", "1.0.1")
+        set("versionCode", 10001)
         // 버전 관리
     }
 
