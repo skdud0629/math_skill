@@ -8,8 +8,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.math_skill.R
-import com.example.math_skill.databinding.ActivityMainBinding
+import com.refactoring_android.math_skill.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("SetJavaScriptEnabled")

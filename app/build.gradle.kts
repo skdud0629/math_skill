@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.math_skill"
+    namespace = "com.refactoring_android.math_skill"
     compileSdk = 34
 
     extra.apply {

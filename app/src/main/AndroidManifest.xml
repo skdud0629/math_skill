@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Math_skill"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.refactoring_android.math_skill.MainActivity"
             android:screenOrientation="landscape"
             android:exported="true">
             <intent-filter>
