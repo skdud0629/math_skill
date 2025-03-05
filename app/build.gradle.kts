@@ -7,18 +7,13 @@ android {
     namespace = "com.refactoring_android.math_skill"
     compileSdk = 34
 
-    extra.apply {
-        set("versionName", "1.0.1")
-        set("versionCode", 10001)
-        // 버전 관리
-    }
-
     defaultConfig {
-        applicationId = "com.example.math_skill"
+        applicationId = "com.refactoring_android.math_skill"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 10001
+        versionName = "1.0.1"
+        //버전 관리
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
