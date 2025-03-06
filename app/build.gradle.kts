@@ -4,22 +4,23 @@ plugins {
 }
 
 android {
-    namespace = "com.example.math_skill"
+    namespace = "com.refactoring_android.math_skill"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.math_skill"
+        applicationId = "com.refactoring_android.math_skill"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 10001
+        versionName = "1.0.1"
+        //버전 관리
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"

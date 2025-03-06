@@ -1,4 +1,4 @@
-package com.example.math_skill
+package com.refactoring_android.math_skill
 
 import org.junit.Test
 
