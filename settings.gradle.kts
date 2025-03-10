@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "math_skill"
 include(":app")
+include(":core")
