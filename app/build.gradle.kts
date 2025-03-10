@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.math_skill"
+    namespace = "com.refactoring_android.math_skill"
     compileSdk = 34
 
     extra.apply {
@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.math_skill"
+        applicationId = "com.refactoring_android.math_skill"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -46,7 +46,7 @@ android {
 }
 
 dependencies {
-
+    implementation(project(":core"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

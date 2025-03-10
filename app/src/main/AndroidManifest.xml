@@ -7,14 +7,14 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/math_skill_logo"
+        android:icon="@mipmap/math_in_skills_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/math_skill_logo"
+        android:roundIcon="@mipmap/math_in_skills_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Math_skill"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.refactoring_android.math_skill.MainActivity"
             android:screenOrientation="landscape"
             android:exported="true">
             <intent-filter>
